@@ -3,7 +3,7 @@
 /*Entscheidungsstrukturen | control flow */
 
 // Deklaration + Assignment
-const ageJohn = 30;
+const ageJohn = 35;
 const ageMark = 30;
 
 // Deklarieren
@@ -19,3 +19,15 @@ console.log("ageMark: " + ageMark);
 console.log("isJohnOlder: " + isJohnOlder);
 console.log("isJohnEqual: " + isJohnEqual);
 console.log("------------------");
+
+/************ IF ************/
+// TINA --> There is no alternative!
+// entweder JA oder nix ... alternativlos
+// Türsteher-Politik (Doors 10 p.m.)
+
+// if (false) // Fake it, 'till you make it!
+// if(isJohnOlder)
+if (ageJohn > ageMark)
+{
+    console.log("John ist älter.");
+};
